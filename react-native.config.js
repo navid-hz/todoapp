@@ -5,4 +5,11 @@ module.exports = {
     },
     ios: {},
   },
+  dependencies: {
+    'react-native-sqlite-storage': {
+      platforms: {
+        ios: null,
+      },
+    },
+  },
 };
